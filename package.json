@@ -58,6 +58,9 @@
 		"typescript": "^2.5.3",
 		"xo": "0.20.3"
 	},
+  	"resolutions": {
+	    "eslint-plugin-import": "2.11.0"
+	},
 	"types": "types/index.d.ts",
 	"xo": {
 		"envs": [

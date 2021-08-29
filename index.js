@@ -179,9 +179,6 @@ function applyStyle() {
 		str = str.replace(/\r?\n/g, `${code.close}$&${code.open}`);
 	}
 
-	// Reset the original `dim` if we changed it to work around the Windows dimmed gray issue
-	ansiStyles.dim.open = originalDim;
-
 	return str;
 }
 

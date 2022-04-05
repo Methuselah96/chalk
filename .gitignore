@@ -2,3 +2,10 @@ node_modules
 coverage
 .nyc_output
 .idea
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
